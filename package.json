@@ -1,0 +1,32 @@
+{
+  "name": "erc721_nft",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_PATH=. nodemon --es-module-specifier-resolution=node scripts/app.js --watch ./scripts/ ./.env"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.5",
+    "@openzeppelin/contracts": "^4.5.0",
+    "@types/node-fetch": "^2.5.12",
+    "ethers": "^5.5.4",
+    "hardhat": "^2.8.4",
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "@alch/alchemy-web3": "^1.2.3",
+    "@pinata/sdk": "^1.1.23",
+    "babel": "^6.23.0",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.2",
+    "image-size": "^1.0.1",
+    "image-type": "^4.1.0",
+    "node-fetch": "^2.6.7",
+    "read-chunk": "^4.0.2"
+  }
+}
